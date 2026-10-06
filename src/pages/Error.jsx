@@ -6,7 +6,7 @@ const Error = () => {
       <h2 className="text-[#95ff00] text-6xl font-bold">404</h2>
       <p className="text-2xl font-semibold mb-2 text-white">Ops! Página não encontrada!</p>
       <p className="text-gray-400 mb-8 max-w-md">Parece que você se perdeu no mapa do Jogo. A Página que você está procurando não existe ou foi removida.</p>
-      <Link to="/" className="text-black py-3 px-20 bg-amber-200 rounded-2xl">Voltar para a Home</Link>
+      <Link to="/" className="text-black py-3 px-20 bg-[#95ff00] rounded-2xl hover:bg-[#80e600] hover:scale-105 transition-transform duration-200">Voltar para a Home</Link>
     </main>
   )
 }
